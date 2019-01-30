@@ -1,0 +1,442 @@
+a{
+text-decoration:none;
+color:#fff;
+}
+
+a:hover{
+color:#000;
+text-decoration:none;
+}
+
+body {
+font-family:arial;
+font-size:12px;
+background-color:#F3F3F3;
+}
+
+.button{
+    position: right;
+    padding: 7px 12px;
+    left: -8px;
+    border: #3B5998;
+    background-color: #3B5998;
+    color: rgb(0, 0, 0);
+    height: 28px;
+	width: 67px;
+    box-shadow: 0 5px 10px 0 rgb(117, 117, 124);
+    border-radius: 5px;
+	color:#fff;
+	font-weight:bold;
+    margin-left: 3px;
+}
+.button:hover  {
+    background-color: rgba(247, 178, 77, 0.7);
+    color:rgba(0,0,0, 0.7);
+    text-shadow: 0 1px 10px #fafafa, 0 0 20px rgba(0,0,0);
+    border: none;
+	}
+
+.selected {
+	background-color: rgb(FFFFFF);
+} 
+
+.masuk{
+    width: 400px;
+    height:34px;
+    margin-top:10px;
+    font-size: 12pt;
+    border: 1px solid #3B5998;
+    padding-left:10px;
+    color:#000;
+	border-radius: 5px; webkit-border-radius:5px;-moz-border-radius:5px;
+}
+.masuk:focus{
+    width: 400px;
+    height:34px;
+    margin-top:10px;
+    font-size: 12pt;
+    padding-left:10px;
+    color:#ccc;
+    outline: none;
+    box-shadow: 0 0 5px #fff;
+}
+
+#tombol{
+    width: 80px;
+	height: 34px;
+	margin-top: -4px;
+    background: #3B5998;
+    border: #3B5998;
+    color:#fff;
+    font-size: 14pt;
+	border-radius: 5px; webkit-border-radius:5px;-moz-border-radius:5px;
+}
+
+#tombol:hover{
+    background: #fff;
+	color:#000;
+	border: 2px solid #3B5998;
+}
+
+#kotak{
+    width: 560px;
+    height: 350px;
+    background: none;
+    margin: 0px auto 0px auto;
+    color:#000000;
+	box-shadow:0px 0px 30px #FFFFFF;
+	padding-left:40px;
+	font-weight:bold;
+}
+
+#kotak2{
+    width: 100%;
+    height: 100%;
+    background: none;
+    margin: 100px auto 100px auto;
+    color:#000000;
+	box-shadow:0px 0px 30px #FFFFFF;
+	padding-left:40px;
+	font-weight:bold;
+}
+
+#atas{
+    height: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+	font-weight:bold;
+    padding-top:20px;
+	padding-left:20px;
+	padding-bottom:40px;
+	color:#000;
+	margin: auto;
+}
+ 
+table, th, td {background-color:#aaa;
+ border-collapse:collapse;
+ border:0px solid #aaaaaa;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-size:12px;
+ margin: auto;
+}
+
+.head {
+border:1px solid #FFF;
+border-radius: 10px; webkit-border-radius:5px;-moz-border-radius:5px;
+ background: rgb(206,220,231); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1))); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* IE10+ */
+ background: linear-gradient(to bottom,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
+
+.head th {
+ padding:10px;
+ font-size:11px;
+ text-align:center;
+}
+
+
+@media (min-width:700px){
+/*UNTUK DEVICE YANG LEBARNYA LEBIH DARI 700PX */
+/*karena tabel kita yang tadi itu untuk device layar lebar, maka taruh saja semuanya disini...*/
+    table th{
+        padding:10px; 
+        font-weight:bold; 
+        background:#2a5d84; 
+        color:#fff; 
+    }
+    table td{
+        padding:10px 5px;
+    }
+}
+
+.container{
+	max-width: 1080px;
+	margin: 0px auto;
+	background: ghostwhite;
+	overflow: hidden;
+	padding: 10px;
+}
+
+/* Main */
+	.left{
+		width: 250px;
+		border: 1px solid #dedede;
+		background: #e5e5e5;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 500px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+		.middle img{
+			max-width: 100%;
+			height: auto;
+		}
+
+		.middle a{
+			font-weight: bold;
+		}
+
+	.right{
+		width: 250px;
+		border: 1px solid #dedede;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+
+	.right ul{
+		list-style-type: none;
+	}
+	.right ul li{
+		display: block;
+	}
+	.right ul li a{
+		display: block;
+		border-bottom: 1px solid #dedede;
+		margin-bottom: 10px;
+		padding: 10px 5px;
+	}
+	.right ul li a:hover{
+		color: orange;
+	}
+
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px) {
+	
+	.container {
+		width: 100%;
+	}
+	.left {
+		width: 25%;
+		background: #fff000;
+	}
+	.middle {
+		width: 68%;
+		float: right;
+	}
+	
+	.right {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+	
+	.header, 
+	.footer{
+		text-align: center;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	
+	.middle {
+		width: auto;
+		float: none;
+	}
+	
+	.right {
+		width: auto;
+		float: none;
+	}
+
+}
+
+
+
+h3{
+	text-align:center;
+	}
+	
+img{padding:left;
+
+}
+
+.gambar{padding: 3px;
+margin-bottom: -10px;
+
+}
+
+p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+header {
+	width:100%;
+	background-color:#3B5998;
+	padding-top:12px;
+	top:0px;
+	height:auto;
+	color:#FFF;
+	
+}
+
+.menu-bar {
+	color:#FFF;
+	font-size:25px;
+	cursor:pointer;
+	padding:10px 12px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+#tag-menu {
+	display:none;
+}
+
+
+#tag-menu:checked ~ div.jw-drawer {
+ animation: slide-in 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+.jw-drawer {
+	position:fixed;
+	left:-280px;
+	background-color:rgba(0, 20, 10, 0.10);
+	height:82.5%;
+	z-index:100;
+	width:230px;
+	animation: slide-out 0.5s ease;
+	animation-fill-mode: forwards;
+}
+
+.jw-drawer ul li {
+	list-style:none;
+}
+
+.jw-drawer ul li a {
+	padding:10px 20px;
+	text-decoration:none;
+	display:block;
+	font-weight:bolder;
+	color:#FFF;
+	border-top:1px solid rgba(0, 0, 10, 0.1);
+}
+
+.jw-drawer ul li a:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+}
+
+.jw-drawer ul li a i {
+	width:50px;
+	height:35px;
+	text-align:center;
+	padding-top:15px;
+}
+
+.jw-drawer ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	background-color:#900;
+	left:300px; 
+	top:50px; 
+	width:190px;
+}
+
+.jw-drawer ul ul li a {
+	float:none; 
+	display:block; 
+	padding-left:30px; 
+	text-align:left; 
+	width:160px;
+}
+ 
+.jw-drawer ul ul li a:hover {
+	color:#fff;
+}
+
+
+
+@keyframes slide-in {
+ from {left: -280px;}
+ to {left: 0;}
+}
+
+@keyframes slide-out {
+ from {left: 0;}
+ to {left: -280px;}
+}
+
+
+#logout{
+  width: 560px;
+    height: 200px;
+    background: none;
+    margin: 150px auto 100px auto;
+    color:#2ECC71;
+	box-shadow:0px 0px 30px #FFFFFF;
+}
+
+#logout{
+  width: 560px;
+    height: 200px;
+    background: none;
+    margin: 150px auto 100px auto;
+    color:#2ECC71;
+	box-shadow:0px 0px 30px #FFFFFF;
+}
+
+.muted-credit{
+font-weight: bold;
+    text-decoration: none;
+    padding-top: 15px;
+}
+li.icon.icon-arrow-left a{
+    color: #fff !important;
+}
+
+
+	
+#footer{
+	background-color:rgba(20, 20, 20, 0.5);
+	position:absolute;
+	padding-top:0px;
+	bottom:0px;
+	width:77.9%;
+    color:#808080;}
+	
+.rekap{
+margin:0 auto;
+width:80%;
+border-collapse:collapse;
+}
+
+.baris-ganjil{background-color:#ccc;
+}
+
+.baris-genap{
+}
+
+.top{
+text-align:center;
+}

@@ -1,0 +1,67 @@
+body{
+    background-image:url(../image/background.jpg);
+    font-family: sans-serif;
+}
+#kotadk{
+    width: 520px;
+    height: 250px;
+    background: none;
+    margin: 0px auto 0px auto;
+    color:white;
+	box-shadow:0px 0px 20px #FFFFFF;
+}
+#atas{
+    text-align: left;
+    font-size: 30px;
+	color:white;
+	padding-left:60px;
+}
+#bawah{
+    height: 200px;
+    width: 520px;
+   
+}
+
+.center{
+margin-top: 100px;
+}
+
+.dis{
+width:450px;
+height:50px
+}
+.masuk{
+    width: 400px;
+    height:34px;
+    margin-top:10px;
+    font-size: 12pt;
+    border: 1px solid #2ECC71;
+    padding-left:10px;
+    color:#2ECC71;
+	border-radius: 5px; webkit-border-radius:5px;-moz-border-radius:5px;
+}
+.masuk:focus{
+    width: 400px;
+    height:34px;
+    margin-top:10px;
+    font-size: 12pt;
+    padding-left:10px;
+    color:#1ABC9C;
+    outline: none;
+    box-shadow: 0 0 5px #fff;
+}
+
+#tombol{
+    width: 400px;
+    height:34px;
+    margin-top:10px;
+    background: #2ECC71;
+    border: #FF0000;
+    color:#fff;
+    font-size: 14pt;
+	border-radius: 5px; webkit-border-radius:5px;-moz-border-radius:5px;
+}
+
+#tombol:hover{
+    background: #B0CAA3;
+}

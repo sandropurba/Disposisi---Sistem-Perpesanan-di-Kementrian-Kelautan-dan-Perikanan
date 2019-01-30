@@ -1,0 +1,106 @@
+body{font-family:'Candara','Calibri',sans-serif;} /*daripada liat font times new roman~ :3 */
+ 
+table{box-shadow:0px 0px 5px #aaa;} /*sedikit bayangan yang soft*/
+
+table, th, td {background-color:#CCCCCC;
+ border-collapse:collapse;
+ border:1px solid #999;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-size:12px;
+}
+
+.head {
+ background: rgb(206,220,231); /* Old browsers */
+ background: -moz-linear-gradient(top,  rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1))); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* IE10+ */
+ background: linear-gradient(to bottom,  rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+}
+
+.head th {
+ padding:10px;
+ font-size:14px;
+}
+
+
+@media (min-width:700px){
+/*UNTUK DEVICE YANG LEBARNYA LEBIH DARI 700PX */
+/*karena tabel kita yang tadi itu untuk device layar lebar, maka taruh saja semuanya disini...*/
+    table th{
+        padding:10px; 
+        font-weight:bold; 
+        background:#33B4E4; 
+        color:#fff; 
+        text-transform:uppercase;
+    }
+    table td{
+        padding:10px 5px;
+    }
+}
+ 
+@media (max-width:700px){
+/*UNTUK DEVICE YANG LEBARNYA KURANG DARI 700PX*/
+ 
+}
+
+@media (max-width:700px){
+    table,tbody,tr,td{
+        display:block; 
+        position:relative;
+    }
+ 
+ 
+}
+
+@media (max-width:700px){
+    table,tbody,tr,td{
+        display:block; 
+        position:relative;
+    }
+    tr{border-bottom:3px solid #fff;} /*optional. nggak ada juga ga apa2*/
+}
+
+@media (max-width:700px){
+    table,tbody,tr,td{
+        display:block; 
+        position:relative;
+    }
+    tr{border-bottom:3px solid #fff;}
+    th{display:none;}
+}
+
+@media (max-width:700px){
+    table,tbody,tr,td{
+        display:block; 
+        position:relative;
+    }
+    tr{border-bottom:3px solid #fff;}
+    th{display:none;}
+    td:before{
+        display:block; 
+        content:attr(data-content); 
+        width:120px; 
+        background:#33b4e4; 
+        color:#fff; 
+        text-transform:uppercase; 
+        font-weight:bold; 
+        height:100%; 
+        line-height:40px; 
+        position:absolute; 
+        text-indent:0px; 
+        padding:0px 10px;
+    }
+    td{
+        text-indent:200px; /*disesuaikan dengan kebutuhan*/
+        line-height:40px; /*line-height disamakan dengan td:before, supaya tampilan teksnya rata*/
+        background:#f7f7f7;
+    }
+}
+
+
+
+
+
